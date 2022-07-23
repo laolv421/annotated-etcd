@@ -28,6 +28,7 @@ import (
 	"go.etcd.io/etcd/server/v3/etcdmain"
 )
 
+// Tip: 服务入口
 func main() {
 	etcdmain.Main(os.Args)
 }
